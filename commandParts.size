@@ -1,0 +1,6 @@
+ } else if (commandParts[0] == "checkout") {
+                if (commandParts.size() > 1) {
+                    repo.checkout(commandParts[1]);
+                } else {
+                    std::cout << "Invalid checkout command. Usage: checkout <branch>\n";
+                }
